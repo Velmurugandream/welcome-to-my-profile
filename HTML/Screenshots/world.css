@@ -1,0 +1,22 @@
+body:before {
+    Content: "";
+    Position: Absolute;
+    inset: 40% -60% 0 -60%;
+    opacity: 0.3;
+    pointer-events: None;
+}
+nav {
+    Position: Relative;
+    z-index: 1;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+nav.before  .active-element{
+    transform: rotatey(180deg);
+}
+   
